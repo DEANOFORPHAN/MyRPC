@@ -1,0 +1,27 @@
+package edu.hit.version1.Server.po;
+
+import java.io.Serializable;
+
+import lombok.AllArgsConstructor;
+import lombok.Builder;
+import lombok.Data;
+import lombok.NoArgsConstructor;
+
+/**
+ * @author xufeixiang <xufeixiang03@kuaishou.com>
+ * @ClassName User
+ * @Description TODO
+ * @Date 2025/4/27 20:16
+ **/
+
+
+
+@Data
+@NoArgsConstructor
+@AllArgsConstructor
+@Builder
+public class User implements Serializable {
+    private String name;
+    private Integer id;
+    private Boolean sex;
+}
